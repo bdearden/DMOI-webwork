@@ -53,7 +53,7 @@ $a2 = $start + 2*$rate;
 $a3 = $start + 3*$rate;
 
 #part a
-$ans1 = Formula("n-[$term]");
+$ans1 = Formula("n-[$term-1]");
 
 #part b
 $dif=$end-$rate; #needed to calculate term n-1
