@@ -47,15 +47,7 @@ Context("IntegerFunctions");
 @bank = ("acidly", "ageist", "hanged", "nachos", "naive", "gizmo", "maths", "camel");
 $tag = random(0,7,1); 
 $word = $bank[$tag];
-#if ($tag ==0 || $tag == 1 || $tag == 2 || $tag ==3)
-{
-$wl = 6;
-}
-#else
-{
-$wl = 5;
-}
-$wl=5;
+$wl = length($word);
 #parta
 $ans1 = Compute("[$wl]!");
 #part b
